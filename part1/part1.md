@@ -1,4 +1,5 @@
-## Part 1a.
+## Part 1a
+
     1. values added: 20
     2. final result: 20
     3. values added: 20
@@ -6,7 +7,8 @@
     5. Returns an error (const result cannot be reassigned)
     6. Returns an error (const result cannot be reassigned)
 
-## Part 1b. 
+## Part 1b
+
     1. The function will print the value of i (3) because i is declared with var and has function scope. At the end of the for loop, i will contain the length of prices[] = 3. 
     2. The function will print the value of discountedPrice (150) because it is declared with var and has function scope. At the end of the for loop, discountedPrice will contain the discounted price of the last item in prices[], which is 300 * 0.5 = 150. 
     3. The function will print the value of finalPrice (150) because it is declared with var and has function scope. At the end of the for loop, finalPrice will contain the final price of the last item in prices[], which is (300 * 0.5) * 100/100 = 150. 
