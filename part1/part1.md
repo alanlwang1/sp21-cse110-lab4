@@ -21,27 +21,27 @@
  10. This function will return an error because discountedPrice is declared as a constant. After the first iteration of the for loop, the function will attempt to modify the value of discountedPrice after it is assigned, which causes the error. 
  11.  This function will return an error because discountedPrice is declared as a constant. After the first iteration of the for loop, the function will attempt to modify the value of discountedPrice after it is assigned, which causes the error. 
 
- 12A. student.name
- 12B. student['Grad Year']
- 12C. student.greeting()
- 12D. student['Favorite Teacher'].name
- 12E. student.courseLoad[0]
+ 12A. student.name  
+ 12B. student['Grad Year']  
+ 12C. student.greeting()  
+ 12D. student['Favorite Teacher'].name  
+ 12E. student.courseLoad[0]  
 
- 13A. '32'  (2 maps to '2' and '3' is a string)
- 13B. 1 ('3' maps to 3 and - is an integer operation)
- 13C. 3 (null maps to 0 and 3 is an integer)
- 13D. '3null' (null maps to 'null' and '3' is a string)
- 13E. 4 (true maps to 1 and 3 is an integer)
- 13F. 0 (false and null both map to 0)
- 13G. '3undefined' (undefined maps to 'undefined' and 3 is a string) 
- 13H. NaN (undefined maps to NaN and - is an integer operation)
+ 13A. '32'  (2 maps to '2' and '3' is a string)  
+ 13B. 1 ('3' maps to 3 and - is an integer operation)  
+ 13C. 3 (null maps to 0 and 3 is an integer)  
+ 13D. '3null' (null maps to 'null' and '3' is a string)  
+ 13E. 4 (true maps to 1 and 3 is an integer)  
+ 13F. 0 (false and null both map to 0)  
+ 13G. '3undefined' (undefined maps to 'undefined' and 3 is a string)     
+ 13H. NaN (undefined maps to NaN and - is an integer operation)  
 
- 14A. true ('2' maps to 2)
- 14B. false ('2' comes after '12' in string order)
- 14C. true ('2' maps to 2)
- 14D. false ('2' and 2 are different types)
- 14E. false (true maps to 1)
- 14F. true (Boolean(2) = true)
+ 14A. true ('2' maps to 2)  
+ 14B. false ('2' comes after '12' in string order)  
+ 14C. true ('2' maps to 2)  
+ 14D. false ('2' and 2 are different types)  
+ 14E. false (true maps to 1)  
+ 14F. true (Boolean(2) = true)  
 
  15.  == converts its operands to numbers if they are of different types before comparison, while === compares operands without conversion. 
 
